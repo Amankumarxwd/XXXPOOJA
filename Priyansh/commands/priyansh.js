@@ -19,7 +19,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL })
     }
 
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("@Priyansh Rajput")==0 || event.body.indexOf("@LOvely Rajput")==0 || event.body.indexOf("@Akanshi Rajput")==0 || event.body.indexOf("")==0) {
+	if (event.body.indexOf("@🤍")==0 || event.body.indexOf("@LOvely Rajput")==0 || event.body.indexOf("@Akanshi Rajput")==0 || event.body.indexOf("Akanshi")==0) {
 		var msg = {
 				body: "MeRi BoSs To BuSy HaIn ShYaD ✨💖🥀",
 				attachment: fs.createReadStream(__dirname + `/noprefix/Priyansh.png`)
